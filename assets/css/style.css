@@ -11,7 +11,7 @@
   /* background-size: cover;  */
   margin: -31px; 
   margin-left:-7px;
-  border: 6px solid rgba(0, 77, 64, 0.4); 
+  border: 6px solid rgba(90, 185, 234, 1); 
   border-radius: 50% !important;
 }
 
@@ -85,7 +85,7 @@
   position: relative;
   padding: 11px 35px;
   background: #fff;
-  color: #00796b;
+  color: #5680E9;
   border: 2px solid #fff;
   font-weight: 600;
   font-size: 15px;
@@ -314,13 +314,8 @@ h3 {
 
 /* Original */
 
-/* #intro.section {
-  background: url(../../assets/img/white-ai-wallpaper.jpg) no-repeat top center/cover;
-  position: relative;
-} */
-
 #intro.section {
-  background: #a7ffeb repeat;
+  background: #5680E9 repeat;
   position: relative;
 }
 
@@ -331,13 +326,6 @@ h3 {
   position: absolute;
   top: 0;
 }
-
-/* #intro.section .container *:not(span) {
-  font-weight: 300;
-  line-height: 150%;
-  padding: 0 30px;
-  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
-} */
 
 #intro.section .container *:not(span) {
   font-weight: 300;
@@ -562,6 +550,14 @@ small {
   background-color: #008073 !important;
 }
 
+.light-blue{
+  background-color: #5AB9EA !important;
+}
+
+.light-blue-text{
+  color: #5AB9EA !important;
+}
+
 /* .teal {
   background-color: #00695c !important;
 } */
@@ -602,7 +598,7 @@ small {
     position: absolute;
   }
   nav a.button-collapse, nav a.button-collapse i {
-    color: #009688;
+    color: #000000;
     height: 56px;
     line-height: 56px;
   }
