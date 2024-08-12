@@ -497,12 +497,13 @@ a.hoverline:hover {
 .card.large .card-image {
   height: 230px;
   overflow: hidden; /* Hide any overflow content */
+  background-color: #fff; /* Set background color to white (or any other color) */
 }
 
 .card.large .card-image img {
   width: 100%; /* Ensure the image scales with the container width */
   height: 100%; /* Ensure the image scales with the container height */
-  object-fit: cover; /* Maintain aspect ratio while covering the container */
+  object-fit: contain; /* Maintain aspect ratio without clipping */
 }
 
 .card.large .card-content {
@@ -512,12 +513,13 @@ a.hoverline:hover {
 .card.medium .card-image {
   height: 240px;
   overflow: hidden; /* Hide any overflow content */
+  background-color: #fff; /* Set background color to white (or any other color) */
 }
 
 .card.medium .card-image img {
   width: 100%; /* Ensure the image scales with the container width */
   height: 100%; /* Ensure the image scales with the container height */
-  object-fit: cover; /* Maintain aspect ratio while covering the container */
+  object-fit: contain; /* Maintain aspect ratio without clipping */
 }
 
 .card-action a.btn-floating {
