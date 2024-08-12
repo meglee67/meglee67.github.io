@@ -510,6 +510,22 @@ a.hoverline:hover {
   margin-bottom: 0;
 }
 
+.card-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 240px; /* Adjust height as needed */
+  overflow: hidden; /* Hide any overflow content */
+}
+
+.image-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
 #contact a:not(.btn-floating) {
   bottom: 6px;
   left: 20px;
