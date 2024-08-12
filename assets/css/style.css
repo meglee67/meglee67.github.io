@@ -497,34 +497,37 @@ a.hoverline:hover {
 .card.large .card-image {
   height: 230px; /* Adjust as needed */
   width: 100%; /* Ensure container takes full width */
+  display: flex; /* Flexbox for alignment */
+  align-items: center; /* Center image vertically */
+  justify-content: center; /* Center image horizontally */
   overflow: hidden; /* Hide any overflow content */
   position: relative; /* Position relative for image positioning */
 }
 
 .card.large .card-image img {
-  width: 100%; /* Stretch to fill container width */
-  height: 100%; /* Stretch to fill container height */
-  object-fit: cover; /* Cover container while maintaining aspect ratio */
-  position: absolute; /* Absolute positioning to manage stretching */
-  top: 0; /* Align to the top of the container */
-  left: 0; /* Align to the left of the container */
+  max-width: 100%; /* Ensure image doesn't exceed container width */
+  max-height: 100%; /* Ensure image doesn't exceed container height */
+  object-fit: contain; /* Contain image within the container */
+  position: relative; /* Relative positioning for proper display */
 }
 
 .card.medium .card-image {
   height: 240px; /* Adjust as needed */
   width: 100%; /* Ensure container takes full width */
+  display: flex; /* Flexbox for alignment */
+  align-items: center; /* Center image vertically */
+  justify-content: center; /* Center image horizontally */
   overflow: hidden; /* Hide any overflow content */
   position: relative; /* Position relative for image positioning */
 }
 
 .card.medium .card-image img {
-  width: 100%; /* Stretch to fill container width */
-  height: 100%; /* Stretch to fill container height */
-  object-fit: cover; /* Cover container while maintaining aspect ratio */
-  position: absolute; /* Absolute positioning to manage stretching */
-  top: 0; /* Align to the top of the container */
-  left: 0; /* Align to the left of the container */
+  max-width: 100%; /* Ensure image doesn't exceed container width */
+  max-height: 100%; /* Ensure image doesn't exceed container height */
+  object-fit: contain; /* Contain image within the container */
+  position: relative; /* Relative positioning for proper display */
 }
+
 
 
 .card-action a.btn-floating {
